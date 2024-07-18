@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=wsap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
+    margin: 0 0 30px 15px;
+}
+
+
+.logo{
+background-color: white;
+    border-radius: 50%;
+}
+.logo img{
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    font-weight: 600;
+    margin: 12px;
+   
+}
+
+
+nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    padding-bottom: 12px;
+ 
+}
+
+button{
+    margin: 8px 0px;
+    padding: 5px 12px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 15px;
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgba(0,0,0,255);
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    height:70vh;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    background-color: rgba(24,24,24,255);
+}
+.container::before{
+    content: '';
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    margin: -0.8px;
+    z-index: -1;
+}
+.container .content{
+    align-items: center;
+    margin-left:30px;
+    margin-right: 15px;
+    width: 55%;
+   
+  
+}
+
+.container .content h2{
+    font-size: 380%;
+    color: white;
+    font-family: "Lalezar", sans-serif;
+}
+
+.container .content p{
+    color: white;
+    font-size: 95%;
+}
+
+.container .content .btn{
+    margin: 10px;
+   
+}
+
+.container .content .btn button {
+    margin: 18px 4px;
+    padding: 5px 12px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 15px;
+    
+    color: rgba(24,24,24,255);
+    border-style: solid;
+    border-color: white;
+}
+
+
+.container .content .btn button a{
+    margin: 12px;
+    color: black;
+   
+}
+
+
+.container .content .btn .explore{
+   
+     background-color: rgba(24,24,24,255);
+    border-style: solid;
+    border-color: white;
+    
+   
+}
+
+.container .content .btn .explore a{
+   margin: 12px;
+    color: white;
+}
+
+
+
+
+.container .content .explore a {
+    color: white;
+}
+
+
+.container .content .myimage{
+    width: 300px;
+   
+    object-fit: cover;
+    background-color: rgb(225, 225, 235);
+
+}
+.container .myimage img{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    width: 100%;
+   height: 280px;
+    object-fit: cover;
+}
+
+.shadowImg{
+    position: absolute;
+    background-color: rgb(66, 62, 62);
+    right: 5%;
+    bottom: 20%;
+    width: 25%;
+    box-shadow: 80%;
+    border-radius: 80px;
+    height: 10px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
